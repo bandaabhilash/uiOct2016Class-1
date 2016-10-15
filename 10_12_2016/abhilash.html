@@ -1,0 +1,84 @@
+<!--main document type of the web page-->
+<!DOCTYPE html>
+
+<!--default html language to be english-->
+<html lang="en">
+
+<!--head of the web page-->
+<head>
+    <title>Form</title>
+</head>
+
+<!--body of the web page-->
+<body>
+
+<!--main article for forms-->
+<article>
+
+    <!--page header-->
+    <header>
+        <h1>Welcome to my website!</h1>
+    </header>
+
+    <!--main body of the page-->
+    <section>
+        <!--form for new license in dmv-->
+        <form name=employee form>
+            <-- Name-->
+            <div>
+                <label for="Name">Applicant's First Name:</label>
+                <input type="text" id="Name" name="Name" placeholder="Enter Name"/>
+            </div>
+            <br />
+
+
+            <!--Phone Number-->
+            <div>
+                <label for="phoneNumber">Applicant's Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+            </div>
+            <br />
+            <!--Gender-->
+            <div>
+                <label for="gender">Applicant's Gender:</label>
+                <div id="gender">
+                    <!--male-->
+                    <label for="male">Male:</label>
+                    <input type="radio" id="male" name="gender" value="Male"/>
+
+                    <!--female-->
+                    <label for="female">Female:</label>
+                    <input type="radio" id="female" name="gender" value="Female"/>
+                </div>
+            </div>
+            <br />
+            <!--department-->
+            <div>
+                <label for="department"> do u belong to this department?</label>
+                <input type="checkbox" id="department" name="department" />
+            </div>
+            <br/>
+            <div>
+                email id:
+                <input type="text" name="user name">
+                user password:
+                <input type="password " name="psw"/>
+            </div>
+            <!--submit button-->
+            <button type="submit" id="submit">
+                <span>Submit</span>
+            </button>
+            <!--reset-->
+            <button type="reset" id="reset">
+                <span>reset</span>
+            </button>
+        </form>
+    </section>
+
+    <!--footer of the page-->
+    <footer>
+        I'm at the bottom
+    </footer>
+</article>
+</body>
+</html>
