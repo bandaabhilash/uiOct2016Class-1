@@ -1,0 +1,15 @@
+form[name="employeeform"]{
+border: 2px solid #000;
+display:inline-block;
+}
+div{
+border: 2px dotted #00ff0000;
+display:inline-block;
+}
+label{
+display:block;
+}
+button[type="reset"]{
+background:#ff0000;
+     color:#fff;
+}

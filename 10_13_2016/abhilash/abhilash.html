@@ -1,0 +1,92 @@
+<!--main document type of the web page-->
+<!DOCTYPE html>
+
+<!--default html language to be english-->
+<html lang="en">
+
+<!--head of the web page-->
+<head>
+    <title>newemployeeeForm</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <meta name="descripation" content ="this wedsite is about signing the employee details"/>
+    <meta name="keywords" content ="empform ,employeeform" />
+    <meta charset="UTF-8" />
+
+
+</head>
+
+<!--body of the web page-->
+<body>
+
+<!--main article for forms-->
+<article>
+
+    <!--page header-->
+    <header>
+        <h1>Welcome to employee registration  website!</h1>
+    </header>
+
+    <!--main body of the page-->
+    <section>
+        <!--form for new license in dmv-->
+        <form name=employeeform>
+            <!-- Name-->
+            <div>
+                <b><label for="Name">Applicant's First Name:</label></b>
+                <input type="text" id="Name" name="Name" placeholder="Enter Name"/>
+            </div>
+            <br />
+
+
+            <!--Phone Number-->
+            <div>
+               <b> <label for="phoneNumber">Applicant's Phone Number:</label></b>
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+            </div>
+            <br />
+            <!--Gender-->
+            <div>
+                <b><label for="gender">Applicant's Gender:</label></b>
+                <div id="gender">
+                    <!--male-->
+                    <label for="male">Male:</label>
+                    <input type="radio" id="male" name="gender" value="Male"/>
+
+                    <!--female-->
+                    <label for="female">Female:</label>
+                    <input type="radio" id="female" name="gender" value="Female"/>
+                </div>
+            </div>
+            <br />
+            <!--department-->
+            <div>
+               <b> <label for="department">  Are  you a senior employee ?</label></b>
+                <input type="checkbox" id="department" name="department" />
+            </div>
+            <br/>
+            <div>
+                <b>email id:</b>
+                <input type="text" name="user name">
+                 <b>user password:</b>
+                <input type="password " name="psw"/>
+            </div>
+            <!--submit button-->
+            <button type="submit" id="submit">
+                <span>Submit</span>
+            </button>
+            <!--reset-->
+            <button type="reset" id="reset">
+                <span>cancel</span>
+            </button>
+        </form>
+    </section>
+
+    <!--footer of the page-->
+    <footer>
+        I'm at the bottom
+    </footer>
+</article>
+</body>
+</html>
